@@ -15,7 +15,19 @@ export default defineConfig({
   ],
   base: '/',
   build: {
-    outDir: '../production/public',
+    outDir: '/production/public',
+          output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            return id
+              .toString()
+              .split('node_modules/')[1]
+              .split('/')[0]
+              .toString();
+          }
+        },
+      },
+    },
   },
   define: { 'process.env': {} },
   resolve: {

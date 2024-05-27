@@ -16,8 +16,9 @@ export default defineConfig({
   base: '/',
   build: {
     outDir: '/production/public',
-          output: {
-        manualChunks(id) {
+    rollupOptions: {
+        output: {
+            manualChunks(id) {
           if (id.includes('node_modules')) {
             return id
               .toString()

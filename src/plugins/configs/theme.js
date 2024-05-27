@@ -1,0 +1,67 @@
+export default {
+  defaultTheme: 'dark',
+  themes: {
+    light: {
+      dark: false,
+      colors: {
+        background: '#FBFBFB',
+        surface: '#FBFBFB',
+        'on-surface': '#262626',
+        'surface-variant': '#F5F5F5',
+        'on-surface-variant': '#262626',
+        primary: '#468FC4',
+        'on-primary': '#FBFBFB',
+        secondary: '#252525',
+        'on-secondary': '#FBFBFB',
+        error: '#BC0B13',
+        info: '#468FC4',
+        success: '#4CAF50',
+        warning: '#FB8C00',
+        'sm-io-server': '#EF9648',
+        smwp: '#71599C',
+        sm2s: '#7CB1DF',
+        'sm-haccp': '#91CB8E',
+        'sm-farm': '#66B9BB',
+        'qlik-sense': '#009C4D',
+        factoryIo: '#48637F',
+        'web-eq': '#84BFBB',
+        white: '#fff',
+        black: '#000',
+      },
+    },
+    dark: {
+      dark: false,
+      colors: {
+        background: '#FBFBFB',
+        surface: '#FBFBFB',
+        'on-surface': '#262626',
+        'surface-variant': '#F5F5F5',
+        'on-surface-variant': '#262626',
+        primary: '#468FC4',
+        'on-primary': '#FBFBFB',
+        secondary: '#252525',
+        'on-secondary': '#FBFBFB',
+        error: '#BC0B13',
+        info: '#468FC4',
+        success: '#4CAF50',
+        warning: '#FB8C00',
+        'sm-io-server': '#EF9648',
+        smwp: '#71599C',
+        sm2s: '#7CB1DF',
+        'sm-haccp': '#91CB8E',
+        'sm-farm': '#66B9BB',
+        'qlik-sense': '#009C4D',
+        factoryIo: '#48637F',
+        'web-eq': '#84BFBB',
+        white: '#fff',
+        black: '#000',
+      },
+    },
+    //   dark: {
+    //     dark: true,
+    //     colors: {
+    //       primary: ""
+    //     }
+    //   }
+  },
+};

@@ -1,0 +1,67 @@
+@use 'vuetify' with (
+  $body-font-family: (
+    'Pretendard Variable',
+    sans-serif,
+  )
+);
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+h1 {
+  @extend .text-h1;
+  @extend .font-weight-bold;
+}
+
+h2 {
+  @extend .text-h2;
+  @extend .font-weight-bold;
+}
+
+h3 {
+  @extend .text-h3;
+  @extend .font-weight-bold;
+}
+
+h4 {
+  @extend .text-h4;
+  @extend .font-weight-bold;
+}
+
+h5 {
+  @extend .text-h5;
+  @extend .font-weight-bold;
+}
+
+h6 {
+  @extend .text-h6;
+  @extend .font-weight-bold;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.section-margin {
+  margin-bottom: 80px !important;
+}
+
+.v-container {
+  max-width: 1200px;
+}
+
+@media (min-width: 960px) {
+  .v-container {
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+  }
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

@@ -15,7 +15,7 @@ export default defineConfig({
   ],
   base: '/',
   build: {
-    outDir: '/production/public',
+    outDir: '/dist',
     rollupOptions: {
         output: {
             manualChunks(id) {
